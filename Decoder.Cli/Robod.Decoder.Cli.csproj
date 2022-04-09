@@ -8,10 +8,14 @@
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>dor</ToolCommandName>
 		<PackageOutputPath>./nupkg</PackageOutputPath>
-		<Copyright>Beerware License</Copyright>
-		<Company>Roland Bodenstaff</Company>
+		<Copyright>Roland Bodenstaff</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Authors>Roland Bodenstaff</Authors>
+		<Description>This is a simple decoder/encoder .NET tool that I created because I was tired of having to use different websites to encode/decode stuff. Use at your own risk because it was made with no intention of being used by anyone else.</Description>
 		<Version>0.0.1</Version>
 		<AssemblyTitle>Decoder of Roland</AssemblyTitle>
+		<RepositoryUrl>https://github.com/rolandbodenstaff/Decoder</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
 	<ItemGroup>

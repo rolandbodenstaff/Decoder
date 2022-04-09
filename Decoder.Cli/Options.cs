@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decoder.Cli
+namespace Robod.Decoder.Cli
 {
     internal class Options
     {

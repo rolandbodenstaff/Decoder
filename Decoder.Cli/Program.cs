@@ -1,7 +1,7 @@
 ﻿
 using CommandLine;
 using CommandLine.Text;
-using Decoder.Cli;
+using Robod.Decoder.Cli;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Text.Json;
