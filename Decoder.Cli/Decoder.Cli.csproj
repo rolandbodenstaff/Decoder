@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>dor</ToolCommandName>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+		<Copyright>Beerware License</Copyright>
+		<Company>Roland Bodenstaff</Company>
+		<Version>0.0.1</Version>
+		<AssemblyTitle>Decoder of Roland</AssemblyTitle>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CommandLineParser" Version="2.8.0" />
+	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.17.0" />
+	  <PackageReference Include="TextCopy" Version="6.1.0" />
+	</ItemGroup>
+
+</Project>
